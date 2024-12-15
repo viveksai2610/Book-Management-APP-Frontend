@@ -1,6 +1,4 @@
-# Routing using react-router Part 3
+Set Up Instructions :
 
-- Navigating to Specific Blog
-  - using Path Parameters
-- Path Params
-  - match
+  1. Download dependencies by running "npm install"
+  2. Run the app by using "npm start"

@@ -1,0 +1,85 @@
+.book-item-link {
+  color: blue;
+}
+
+.delete-book-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 15px;
+  width: 30%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.item-info {
+  font-family: 'Roboto';
+}
+
+.published-date {
+  color: gray;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 18px;
+}
+.span {
+  color: #000000;
+}
+.pages {
+  font-size: 16px;
+  color: blueviolet;
+}
+
+.delete-icon {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .delete-book-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 15px;
+    width: 60%;
+  }
+  .delete-icon {
+    font-size: 25px;
+  }
+}
+.delete-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.cancel-button {
+  height: 36px;
+  width: 80px;
+  font-size: 15px;
+  background-color: transparent;
+  border-color: #11d896;
+  border-radius: 6px;
+  border-width: 1px;
+  color: #11d896;
+  margin: 10px;
+}
+.confirm-btn {
+  height: 36px;
+  width: 80px;
+  font-size: 15px;
+  background-color: #11d896;
+  border-radius: 6px;
+  border-width: 0px;
+  color: #ffffff;
+  margin: 10px;
+}

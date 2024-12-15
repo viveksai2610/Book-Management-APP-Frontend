@@ -1,0 +1,43 @@
+.book-item-link {
+  color: blue;
+}
+
+.book-item-container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  width: 30%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.item-info {
+  font-family: 'Roboto';
+}
+
+.published-date {
+  color: gray;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 18px;
+}
+.span {
+  color: #000000;
+}
+.pages {
+  font-size: 16px;
+  color: blueviolet;
+}
+
+@media screen and (max-width: 768px) {
+  .book-item-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 60%;
+  }
+}

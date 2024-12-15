@@ -1,0 +1,32 @@
+.books-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.loader-container {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+.input-search {
+  height: 40px;
+  width: 220px;
+}
+.search-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 39px;
+  background-color: lightgray;
+  border-width: 0px;
+}
+.search-icon {
+  font-size: 20px;
+}

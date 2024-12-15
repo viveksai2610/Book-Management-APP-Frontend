@@ -1,0 +1,54 @@
+.book-container {
+  font-family: 'Roboto';
+  margin-top: 30px;
+  margin-left: 40px;
+}
+span {
+  font-weight: bold;
+  font-size: 16px;
+}
+.loader-container {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  height: 36px;
+  width: 80px;
+  font-size: 15px;
+  background-color: #11d896;
+  border-radius: 6px;
+  border-width: 0px;
+  color: #ffffff;
+  margin: 10px;
+}
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.cancel-button {
+  height: 36px;
+  width: 80px;
+  font-size: 15px;
+  background-color: transparent;
+  border-color: #11d896;
+  border-radius: 6px;
+  border-width: 1px;
+  color: #11d896;
+  margin: 10px;
+}
+.confirm-btn {
+  height: 36px;
+  width: 80px;
+  font-size: 15px;
+  background-color: #11d896;
+  border-radius: 6px;
+  border-width: 0px;
+  color: #ffffff;
+  margin: 10px;
+}
